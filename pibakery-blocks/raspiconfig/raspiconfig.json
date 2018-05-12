@@ -1,0 +1,30 @@
+{
+	"name": "raspiconfig",
+	"text": "Run raspi-config Commands.",
+	"script": "raspiconfig.sh",
+	"args": [
+		{
+			"type": "menu",
+			"default": "",
+			"maxLength":0
+		},
+		{
+		    "type": "menu",
+		    "options":
+		    [
+			"",
+			""
+		    ]
+		}
+	],
+	"network": false,
+	"continue": true,
+	"type": "other",
+	"category":"other",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Run a raspi-config command.",
+	"longDescription":"This block allows you to execute a raspi-config action/command on the command line non interactively."
+}
