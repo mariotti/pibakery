@@ -4,17 +4,35 @@
 	"script": "raspiconfig.sh",
 	"args": [
 		{
-			"type": "menu",
-			"default": "",
-			"maxLength":0
-		},
-		{
 		    "type": "menu",
 		    "options":
 		    [
-			"",
-			""
+			"do_hostname",
+			"do_boot_behaviour B1",
+			"do_boot_behaviour B2",
+			"do_boot_behaviour B3",
+			"do_boot_behaviour B4",
+			"do_boot_wait",
+			"do_boot_splash",
+			"do_overscan",
+			"do_camera",
+			"do_ssh",
+			"do_vnc",
+			"do_spi",
+			"do_i2c",
+			"do_serial",
+			"do_onewire",
+			"do_rgpio",
+			"do_overclock",
+			"do_memory_split",
+			"do_resolution",
+			"do_wifi_country"
 		    ]
+		},
+		{
+			"type": "text",
+			"default": "",
+			"maxLength":0
 		}
 	],
 	"network": false,
