@@ -5,6 +5,7 @@
   "loadOrder": [
     "vncenable",
     "packageinstall",
+    "raspiconfig",  
     "lampinstall",
     "iqaudio",
     "wifisetup",
