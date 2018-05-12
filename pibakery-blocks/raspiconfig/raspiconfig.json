@@ -31,7 +31,7 @@
 		},
 		{
 			"type": "text",
-			"default": "",
+			"default": "0",
 			"maxLength":0
 		}
 	],
@@ -44,5 +44,5 @@
 		"raspbian-lite-pibakery.img"
 	],
 	"shortDescription":"Run a raspi-config command.",
-	"longDescription":"This block allows you to execute a raspi-config action/command on the command line non interactively."
+	"longDescription":"This block allows you to execute a raspi-config action/command on the command line non interactively. To set the optional you need to know the internals of the command you are running. Simple activation, like do_camera usually needs a 0."
 }
